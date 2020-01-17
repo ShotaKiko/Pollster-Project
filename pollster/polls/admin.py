@@ -12,7 +12,7 @@ admin.site.index_title = "Welcome to the Pollster admin dashboard :)"
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
-    extra = 4
+    extra = 3
 
 
 class QuestionAdmin(admin.ModelAdmin):
