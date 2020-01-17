@@ -6,6 +6,10 @@ from .models import Question, Choice
 # admin.site.register(Question)
 # admin.site.register(Choice)
 
+admin.site.site_header = "Pollster Admin"
+admin.site.site_title = "Pollster Admin Dashboard"
+admin.site.index_title = "Welcome to the Pollster admin dashboard :)"
+
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 4
